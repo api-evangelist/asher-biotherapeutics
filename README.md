@@ -42,5 +42,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Asher Biotherapeutics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
+Asher Biotherapeutics (Asher Bio) is a privately held, clinical-stage biotechnology company founded in 2019 and headquartered in South San Francisco, California. It develops cis-targeted immunotherapies — engineered biologics that engage an immunomodulatory receptor and a cell-type-specific target on the same immune cell, so a cytokine is activated only on the intended cell population. Its lead candidate, etakafusp alfa (AB248), is a cis-targeted IL-2 directed at CD8+ effector T cells and is in Phase 1a/1b development in cancer, alongside AB821, AB359, and a cis-targeted cytokine augmentation program for cell therapies.
+
+**No API surface.** Asher Bio is a therapeutics developer, not a software company. Contract discovery on 2026-08-06 probed the API-host and docs-host paths (`/openapi.json`, `/swagger.json`, `/api-docs`, `/graphql`, `/api`, `/developers`, `/docs`) and the full `/.well-known/` discovery surface (`security.txt`, `openid-configuration`, `oauth-authorization-server`, `api-catalog`, `ai-plugin.json`, `agent-card.json`, `agent.json`) plus `/llms.txt` — every one returned 404. See `x-coverage` in `apis.yml`.
+
+- https://asherbio.com/
 - https://forgeglobal.com/asher-biotherapeutics_stock/

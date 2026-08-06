@@ -1,0 +1,27 @@
+generated: '2026-08-06'
+method: probed
+source: live GET probes of https://asherbio.com/.well-known/*
+host: https://asherbio.com
+note: >-
+  Every RFC 8615 discovery path was probed and every one returned 404 from the
+  site's nginx/WordPress origin. No well-known document exists, so no raw file was
+  saved and no WellKnown / SecurityTxt pointer is wired in apis.yml. Recorded as a
+  negative probe result so a later round does not re-hunt blindly.
+documents: []
+probes:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+- path: /llms.txt
+  status: 404
