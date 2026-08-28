@@ -12,6 +12,17 @@ description: 'Asher Biotherapeutics (Asher Bio) is a privately held, clinical-st
   program for cell therapies. Asher Bio is a therapeutics developer, not a software
   or platform company: it publishes no developer program, public API, SDK, or machine-readable
   interface.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://asherbio.com/wp-content/uploads/2021/03/home-page-card-Asher-032221.jpg
 url: https://raw.githubusercontent.com/api-evangelist/asher-biotherapeutics/refs/heads/main/apis.yml
 x-type: company
