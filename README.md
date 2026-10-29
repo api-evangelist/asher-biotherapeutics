@@ -64,9 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Asher Biotherapeutics (Asher Bio) is a privately held, clinical-stage biotechnology company founded in 2019 and headquartered in South San Francisco, California. It develops cis-targeted immunotherapies — engineered biologics that engage an immunomodulatory receptor and a cell-type-specific target on the same immune cell, so a cytokine is activated only on the intended cell population. Its lead candidate, etakafusp alfa (AB248), is a cis-targeted IL-2 directed at CD8+ effector T cells and is in Phase 1a/1b development in cancer, alongside AB821, AB359, and a cis-targeted cytokine augmentation program for cell therapies.
+Asher Biotherapeutics (Asher Bio) is a privately held, clinical-stage biotechnology company founded in 2019 and headquartered at 650 Gateway Blvd. in South San Francisco, California. The company develops cis-targeted immunotherapies — engineered biologics that simultaneously engage an immunomodulatory receptor and a cell-type-specific target on the same immune cell, so a cytokine is only activated on the intended cell population rather than acting indiscriminately across immune subsets. Its lead candidate, etakafusp alfa (AB248), is a cis-targeted IL-2 directed at CD8+ effector T cells and is in Phase 1a/1b clinical development in cancer, alongside earlier-stage programs AB821 and AB359 and a cis-targeted cytokine augmentation program for cell therapies. Asher Bio is a therapeutics developer, not a software or platform company: it publishes no developer program, public API, SDK, or machine-readable interface.
 
-**No API surface.** Asher Bio is a therapeutics developer, not a software company. Contract discovery on 2026-08-06 probed the API-host and docs-host paths (`/openapi.json`, `/swagger.json`, `/api-docs`, `/graphql`, `/api`, `/developers`, `/docs`) and the full `/.well-known/` discovery surface (`security.txt`, `openid-configuration`, `oauth-authorization-server`, `api-catalog`, `ai-plugin.json`, `agent-card.json`, `agent.json`) plus `/llms.txt` — every one returned 404. See `x-coverage` in `apis.yml`.
+**Areas:** Company · Biotechnology · Immunotherapy · Oncology · Therapeutics · Clinical Stage · Life Sciences · Cytokines
 
-- https://asherbio.com/
-- https://forgeglobal.com/asher-biotherapeutics_stock/
+## Asher Biotherapeutics on APIs.io
+
+Everything profiled for Asher Biotherapeutics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/asher-biotherapeutics/](https://apis.io/providers/asher-biotherapeutics/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Asher Biotherapeutics Domain Security](https://apis.io/security/asher-biotherapeutics/asher-biotherapeutics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://asherbio.com/)
+- [Blog](https://asherbio.com/news/press-releases/)
+- [Terms of service](https://asherbio.com/terms-of-use/)
+- [Privacy policy](https://asherbio.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 9.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/asher-biotherapeutics/](https://apis.io/providers/asher-biotherapeutics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Asher Biotherapeutics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/asher-biotherapeutics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
